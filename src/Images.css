@@ -1,0 +1,41 @@
+.lineup-images {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.image {
+    position: absolute;
+    object-fit: cover;
+}
+
+.full {
+    right: 0;
+    width: 50%;
+    height: 100%;
+    border-left: 0.2vw solid white;
+}
+
+.zoom {
+    bottom: 0;
+    left: 0;
+    height: 50%;
+    width: 50%;
+}
+
+.pos {
+    top: 0;
+    left: 0;
+    height: 50%;
+    width: 50%;
+    border-bottom: 0.2vh solid white;
+}
+
+.close-button {
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, -50%);
+}

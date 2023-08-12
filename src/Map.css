@@ -1,0 +1,38 @@
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: var(--max-map-height);
+    background-color: var(--background-color-main);
+  }
+  
+  .map > div {
+    position: relative;
+  }
+  
+  img {
+    height: var(--max-map-height);
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+
+  .lineup {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    
+    height: 1.5%;
+    width: 1.5%;
+    background: white;
+  }
+    
+  .origin {
+    background-color: #0D6EFD;
+  }
+    
+  .target {
+    background-color: #DC3545;
+  }

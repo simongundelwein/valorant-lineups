@@ -1,0 +1,111 @@
+{
+    "maps": ["Ascent", "Bind", "Breeze", "Fracture", "Haven", "Icebox", "Lotus", "Pearl", "Split"],
+    "locations": {
+        "Ascent": {
+            "b-default": {
+                "x": 12.5,
+                "y": 26.5
+            },
+            "b-lobby": {
+                "x": 16,
+                "y": 57.7
+            },
+            "a-main": {
+                "x": 80,
+                "y": 50
+            },
+            "a-lobby": {
+                "x": 75,
+                "y": 55
+            },
+            "a-default": {
+                "x": 84,
+                "y": 32
+            }
+        },
+        "Pearl": {
+            "a-default": {
+                "x": 83.8,
+                "y": 31
+            },
+            "a-corner": {
+                "x": 92,
+                "y": 33.5
+            },
+            "a-main-corner": {
+                "x": 92,
+                "y": 83
+            },
+            "b-default": {
+                "x": 16.5,
+                "y": 45
+            },
+            "ramp": {
+                "x": 2,
+                "y": 79.5
+            }
+        },
+        "Bind": {
+            "a-default": {
+                "x": 1,
+                "y": 1
+            },
+            "a-short-box": {
+                "x": 1,
+                "y": 1
+            },
+            "a-short-top": {
+                "x": 1,
+                "y": 1
+            },
+            "showers": {
+                "x": 1,
+                "y": 1
+            },
+            "a-default": {
+                "x": 1,
+                "y": 1
+            }
+        }
+    },
+    "lineups": {
+        "Ascent": {
+            "b-default_b-lobby": {
+                "target": "b-default",
+                "origin": "b-lobby"
+            },
+            "b-default_a-main": {
+                "target": "b-default",
+                "origin": "a-main"
+            },
+            "a-default_a-lobby": {
+                "target": "a-default",
+                "origin": "a-lobby"
+            }
+        },
+        "Pearl": {
+            "b-default_ramp": {
+                "target": "b-default",
+                "origin": "ramp"
+            }
+        },
+        "Bind": {
+            "a-default_a-short-top": {
+                "target": "a-default",
+                "origin": "a-short-top"
+            },
+            "a-default_a-short-top": {
+                "target": "a-default",
+                "origin": "a-short-top"
+            },
+            "a-default_a-short-top": {
+                "target": "a-default",
+                "origin": "a-short-top"
+            },
+            "a-default_a-short-top": {
+                "target": "a-default",
+                "origin": "a-short-top"
+            }
+        }
+    }
+}
